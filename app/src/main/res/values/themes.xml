@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Buttom_Custom" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+        <item name="buttonStyle">@style/Buttom_Custom</item>
+
+    </style>
+
+    <style name="Buttom_Custom" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:textColor" type= "">#ffffff</item>
+    </style>
+</resources>
